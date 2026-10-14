@@ -6,9 +6,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Model files
-*.pkl
-
 # Environment variables
 .env
 

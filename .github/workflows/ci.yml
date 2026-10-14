@@ -21,7 +21,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run tests
-        run: |
-          python src/prediction.py
+      - name: Train
+        run: python src/train.py
+
+      - name: Predict
+        run: python src/prediction.py
  
